@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari Bagavath | Python Developer & Ethical Hacking Enthusiast</title>
+    <meta name="description" content="Portfolio of Hari Bagavath – B.Com CA graduate, Python developer, and ethical hacking enthusiast from Dindigul, Tamilnadu.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Particle canvas background -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navbar -->
+    <nav class="glass-nav" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">HB<span class="logo-dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="btn-nav">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#education" class="mobile-link">Education</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <main>
+        <!-- HERO -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    AVAILABLE FOR OPPORTUNITIES
+                </div>
+                <h1>
+                    <span class="line1">Hari Bagavath</span><br>
+                    <span class="line2"><span class="typed-text" id="typed-text"></span><span class="cursor">|</span></span>
+                </h1>
+                <p class="hero-sub">B.Com (CA) graduate · Python developer · Ethical Hacking enthusiast based in <strong>Dindigul, Tamilnadu</strong>.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary" id="hero-view-btn">View My Work</a>
+                    <a href="mailto:haribagavath7@gmail.com" class="btn-ghost" id="hero-email-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                        haribagavath7@gmail.com
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-ring">
+                    <div class="avatar-inner">
+                        <span class="avatar-initials">HB</span>
+                    </div>
+                    <div class="orbit orbit-1"><div class="orbit-dot"></div></div>
+                    <div class="orbit orbit-2"><div class="orbit-dot"></div></div>
+                </div>
+            </div>
+            <div class="scroll-hint">
+                <div class="scroll-line"></div>
+                <span>Scroll</span>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="container reveal">
+                <div class="section-label">01 &mdash; CAREER OBJECTIVE</div>
+                <h2 class="section-heading">Who I Am</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>A motivated and detail-oriented fresher seeking an entry-level position where I can apply my academic knowledge, develop professional skills, and contribute to the growth of the organization.</p>
+                        <p style="margin-top:1.2rem;">With a background in Commerce and Computer Applications, I bridge the gap between business understanding and technical execution — building systems that are secure, efficient, and impactful.</p>
+                    </div>
+                    <div class="about-details">
+                        <div class="detail-row">
+                            <div class="detail-block">
+                                <span class="dk">Date of Birth</span>
+                                <span class="dv">10 January 2005</span>
+                            </div>
+                            <div class="detail-block">
+                                <span class="dk">Location</span>
+                                <span class="dv">Dindigul, Tamilnadu</span>
+                            </div>
+                        </div>
+                        <div class="detail-row">
+                            <div class="detail-block">
+                                <span class="dk">Languages</span>
+                                <span class="dv">Tamil · English · Telugu</span>
+                            </div>
+                            <div class="detail-block">
+                                <span class="dk">Email</span>
+                                <span class="dv">haribagavath7@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section alt-bg">
+            <div class="container reveal">
+                <div class="section-label">02 &mdash; EXPERTISE</div>
+                <h2 class="section-heading">Technical Lab</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        </div>
+                        <h3>Programming</h3>
+                        <p>Python, Ethical Hacking fundamentals and real-world security scripting.</p>
+                        <div class="skill-tags"><span>Python</span><span>Bash</span><span>Scripting</span></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        </div>
+                        <h3>Web Technologies</h3>
+                        <p>Building responsive UIs with semantic HTML5 and modern CSS3 techniques.</p>
+                        <div class="skill-tags"><span>HTML5</span><span>CSS3</span></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                        </div>
+                        <h3>Databases</h3>
+                        <p>Designing relational schemas and writing queries for data management.</p>
+                        <div class="skill-tags"><span>MySQL</span><span>SQLite</span></div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+                        </div>
+                        <h3>Systems & Tools</h3>
+                        <p>Operating across Windows and Linux environments with productivity suites.</p>
+                        <div class="skill-tags"><span>Linux</span><span>Windows</span><span>MS Office</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="container reveal">
+                <div class="section-label">03 &mdash; ACADEMIC WORK</div>
+                <h2 class="section-heading">Featured Project</h2>
+                <div class="project-card">
+                    <div class="project-glow"></div>
+                    <div class="project-number">01</div>
+                    <div class="project-body">
+                        <h3>Expense Tracker Management System</h3>
+                        <p>A Python-based application to record, categorize, and manage daily expenses efficiently. Implements features to add, update, and analyze expenses with date-wise and category-wise summaries. Ensures secure data storage and accurate report generation.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>SQLite / MySQL</span>
+                            <span>Data Analysis</span>
+                            <span>CLI Interface</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION & INTERNSHIP -->
+        <section id="education" class="section alt-bg">
+            <div class="container reveal">
+                <div class="section-label">04 &mdash; ACADEMIC JOURNEY</div>
+                <h2 class="section-heading">Education & Experience</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="tl-year">2022 &ndash; 2025</div>
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <h4>B.Com (Computer Applications)</h4>
+                            <p>Parvathy's Arts and Science College, Dindigul</p>
+                            <span class="tl-grade">72%</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2021 &ndash; 2022</div>
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <h4>Higher Secondary &ndash; 12th Grade</h4>
+                            <p>Sri Vasavi Matriculation Hr. Sec. School, Dindigul</p>
+                            <span class="tl-grade">71%</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="tl-year">2019 &ndash; 2020</div>
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <h4>Secondary &ndash; 10th Grade</h4>
+                            <p>Sri Vasavi Matriculation Hr. Sec. School, Dindigul</p>
+                            <span class="tl-grade">53%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dual-grid">
+                    <!-- Internship -->
+                    <div class="info-card">
+                        <div class="info-card-label">Internship</div>
+                        <h3>JK Fenner (India) Ltd.</h3>
+                        <p class="info-duration">Duration: 15 Days</p>
+                        <ul class="info-list">
+                            <li>Hands-on exposure to industrial processes and documentation</li>
+                            <li>Developed teamwork, discipline, and real-world workflow understanding</li>
+                        </ul>
+                    </div>
+                    <!-- Certifications -->
+                    <div class="info-card">
+                        <div class="info-card-label">Certifications</div>
+                        <div class="cert-item">
+                            <div class="cert-icon">🐍</div>
+                            <div>
+                                <h4>Python Programming</h4>
+                                <p>Mind Map Programming, Gandhigram, Dindigul &ndash; Feb 2026</p>
+                            </div>
+                        </div>
+                        <div class="cert-item">
+                            <div class="cert-icon">🛡️</div>
+                            <div>
+                                <h4>Ethical Hacking</h4>
+                                <p>Online &ndash; Ongoing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="container reveal">
+                <div class="section-label">05 &mdash; GET IN TOUCH</div>
+                <h2 class="section-heading">Contact HQ</h2>
+                <div class="contact-wrap">
+                    <div class="contact-info">
+                        <p>I am actively seeking entry-level opportunities in Python development, cybersecurity, or related tech roles. Let's connect and build something meaningful together.</p>
+                        <a href="mailto:haribagavath7@gmail.com" class="contact-link" id="contact-email-link">
+                            <div class="cl-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+                            </div>
+                            <div>
+                                <span class="cl-label">Email</span>
+                                <span class="cl-value">haribagavath7@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+919150016289" class="contact-link" id="contact-phone-link">
+                            <div class="cl-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.29A2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 5.55 5.55l1.62-1.62a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div>
+                                <span class="cl-label">Phone</span>
+                                <span class="cl-value">+91 9150016289</span>
+                            </div>
+                        </a>
+                        <a href="#" class="contact-link" id="contact-location-link">
+                            <div class="cl-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <span class="cl-label">Location</span>
+                                <span class="cl-value">Big Bazar Street, Dindigul, Tamilnadu</span>
+                            </div>
+                        </a>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Tell me about the opportunity..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" id="submit-btn">
+                            Send Message
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <span>© 2026 Hari Bagavath. All rights reserved.</span>
+            <div class="footer-extras">
+                <span>Dindigul, Tamilnadu</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
